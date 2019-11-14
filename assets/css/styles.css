@@ -1,0 +1,56 @@
+*{
+    font-family: 'halyard-text',sans-serif;
+}
+ul a{
+    color: #111;
+}
+ul a:hover{
+    color: #497aa0;
+}
+/* .dropdown-menu{
+    padding: 0 5px;
+}
+.dropdown-item{
+    color: #222;
+    border-top: #bd4630 1px solid;
+}
+.dropdown-item:first-child{
+    border-top: none;
+} */
+.dropdown-item:active{
+    background: #ddd;
+}
+.dropdown-item:hover{
+    color: #497aa0;
+    
+}
+h1{
+    font-family: 'halyard-display',sans-serif;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 1.1em;
+}
+h2{
+    font-weight: 900;
+}
+h3{
+    font-family: 'halyard-display',sans-serif;
+    font-weight: 500;
+}
+p{
+    font-weight: 200;
+}
+#nav-icon{
+    width:300px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 20vh;
+    padding: 20px 10%;
+}
+
+footer{
+    margin-top:80px;
+}
