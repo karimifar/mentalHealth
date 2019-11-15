@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1440px) {
+    
+}
+
+@media only screen and (max-width: 1240px) {
+    
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .navbar .dropdown-menu {
+        text-align: right;
+    }
+    header{
+        padding: 20px 15px;
+    }
+    #nav-icon img{
+        width:250px;
+    }    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar .dropdown-menu {
+        text-align: right;
+    }
+    header{
+        padding: 10px 5px;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    #nav-icon img{
+        width:220px;
+    }    
+}

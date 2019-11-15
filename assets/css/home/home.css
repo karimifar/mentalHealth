@@ -12,7 +12,7 @@
     background: #497aa066;
     opacity: 1;
     background-blend-mode: multiply;
-    background-image: url("../img/home.jpeg");
+    background-image: url("../../img/home.jpeg");
     background-size: cover;
     background-position: 50% 70%;
 }
@@ -75,10 +75,16 @@
 
 #events-row{
     background-color: #497aa0;
+    padding-top:50px;
     
 }
 #events-row h2{
-    color: #fff;
+    color: #497aa0;
+    width:fit-content;
+    display: table;
+    background: #fff;
+    padding: 2px 5px 5px;
+    border-bottom: #bd4630 1px solid;
     
 }
 .all-events{
@@ -126,8 +132,9 @@
 .event-wrap .date{
     padding: 10px;
     text-align: center;
-    background: #fff;
-    color: #497aa0;
+    /* background: #fff; */
+    color: #fff;
+    border: 1px #fff solid;
     border-radius: 5px;
 }
 .event-wrap .event-info{
@@ -148,6 +155,10 @@
 
 .event-wrap:hover{
     border: #fff 1px solid;
-    border-radius: 5px;
+    border-radius: 6px;
     background: #11111122
+}
+.event-wrap:hover .date{
+    background: #fff;
+    color: #497aa0;
 }

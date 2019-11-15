@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1440px) {
+    h1{
+        font-size: 58px;
+    }
+    .home-row{
+        padding: 20px 10%;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .home-row{
+        padding: 20px 8%;
+    }
+    h1{
+        font-size: 52px;
+    }
+    h2{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1{
+        font-size: 45px;
+    }
+    .home-row{
+        padding: 20px 5%;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .home-row{
+        padding: 20px 10px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #intro-row p{
+        font-size: 12px;
+    }
+    .banner-img-wrap, .banner-overlay, #intro-row{
+        width:100%;
+        height: 80vh;
+    }
+}
