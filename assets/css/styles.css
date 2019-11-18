@@ -28,10 +28,8 @@ ul.navbar-nav{
 .navbar-toggler{
     padding: 0;
 }
-.navbar-toggler-icon:focus{
-    outline: none;
-}
-.navbar-toggler:focus, .navbar-toggler:hover{
+
+.navbar-toggler-icon:focus, .navbar-toggler:focus, .navbar-toggler:hover{
     outline: none;
 }
 ul a{
@@ -44,10 +42,14 @@ ul a:hover{
     display: none;
 }
 
-ul.navbar-nav li.dropdown:hover .dropdown-menu {
-    display: block;
+.nav-item, ul.navbar-nav{
+    transition: all 0.3s ease-in-out
 }
-
+@media only screen and (min-width: 992px) {
+    ul.navbar-nav li.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
 .navbar .dropdown-menu {
     margin-top: 0px;
 }
@@ -89,7 +91,8 @@ header{
     min-height: 20vh;
     padding: 20px 10%;
     position: relative;
-    z-index: 10
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
 }
 footer{
     background: #eee;
@@ -116,4 +119,41 @@ footer{
 }
 .footer-row p a{
     color: #497aa0;
+}
+
+
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+  
+  
+@keyframes slideIn {
+0% {
+    transform: translateY(1rem);
+    opacity: 0;
+}
+100% {
+    transform:translateY(0rem);
+    opacity: 1;
+}
+}
+
+@-webkit-keyframes slideIn {
+100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+}
+0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+}
+}
+
+.slideIn {
+-webkit-animation-name: slideIn;
+animation-name: slideIn;
 }
