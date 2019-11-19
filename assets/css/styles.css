@@ -158,3 +158,20 @@ footer{
 -webkit-animation-name: slideIn;
 animation-name: slideIn;
 }
+
+
+ul.myList{
+    list-style-type:none ;
+    padding: 0;
+    margin: 30px 0;
+}
+ul.myList li{
+    padding: 10px 20px;
+    background: #497aa010;
+    max-width: 900px;
+    margin: auto;
+}
+
+ul.myList li:nth-child(even){
+    background: #497aa030;
+}
