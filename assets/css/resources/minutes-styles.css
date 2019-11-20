@@ -1,0 +1,50 @@
+.banner{
+    position: relative;
+}
+a{
+    color: #497aa0;
+}
+.banner-img-wrap, .banner-overlay, #intro-row, .banner{
+    width:100%;
+    height: 70vh;
+}
+.banner-img-wrap{
+    position: absolute;
+    background: #9da0a166;
+    opacity: 1;
+    background-blend-mode: multiply;
+    background-image: url("../../img/minutes.jpeg");
+    background-size: cover;
+    background-position: 50% 70%;
+}
+.banner-overlay{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);;
+    opacity: 1;
+
+}
+h1.page-title{
+    position: absolute;
+    left: 20%;
+    top:23vh;
+    z-index: 200;
+    color: #fff;
+    background: #497aa0;
+    text-shadow: 0 0 1px #fff;
+    border-left: 3px solid #bd4630;
+    padding: 0 15px;
+    /* font-weight: 500; */
+}
+
+.page-row-1{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding: 50px 5%;
+    margin-top: -35vh;
+    background: #fff;
+    z-index: 100;
+    min-height: 35vh;
+    padding-bottom: 100px;
+
+}

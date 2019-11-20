@@ -23,6 +23,9 @@ footer{
     margin: auto;
     max-width: 1200px;
 }
+.page-row p{
+    font-size: 18px;
+}
 nav.navbar{
     /* flex-wrap: nowrap; */
 }
