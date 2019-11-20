@@ -18,6 +18,11 @@ footer{
     flex-shrink: 0;
 
 }
+.page-row{
+    width: 70%;
+    margin: auto;
+    max-width: 1200px;
+}
 nav.navbar{
     /* flex-wrap: nowrap; */
 }
@@ -94,6 +99,7 @@ header{
     position: relative;
     z-index: 10;
     transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #eee;
 }
 footer{
     background: #eee;
@@ -174,4 +180,11 @@ ul.myList li{
 
 ul.myList li:nth-child(even){
     background: #497aa030;
+}
+
+ul.numlist{
+    list-style-type: decimal;
+}
+ul.numlist li{
+    padding: 10px;
 }

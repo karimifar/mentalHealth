@@ -50,10 +50,10 @@ h1.page-title{
     min-height: 35vh;
     padding-bottom: 100px;
 }
-.init-part{
+.init-card{
     margin-bottom: 40px;
 }
-.init-part p{
+.init-card p{
     font-size: 20px;
 }
 
@@ -65,12 +65,60 @@ h1.page-title{
     font-weight: 100;
     list-style: none;
 }
-.init-part h2{
+.init-card h2{
     color: #bd4630;
     font-weight: 500;
+}
+
+h2.init-head{
+    color: #bd4630;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
 }
 .diagram{
     padding: 50px;
     width: 100%;
+}
+
+.chairs{
+    background: #497aa0;
+    color: #fff;
+    padding:20px;
+    width: 50%;
+    min-width: 300px;
+    
+}
+#init1-head, #init3-head{
+    background: #497aa011;
+}
+.chairs h4{
+    font-size: 18px;
+    font-weight: 100;
+}
+.chairs p{
+    margin:0;
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 0.5em;
+}
+.chairs .bold{
+    font-weight: 600;
+}
+
+h2.init-head:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.card-header{
+    padding:20px;
+    background: #497aa033;
+}
+.card-header:hover{
+    background: #bd4630 !important;
+    cursor: pointer;
+}
+.card-header:hover h2.init-head{
+    color: #fff;
 }
 
