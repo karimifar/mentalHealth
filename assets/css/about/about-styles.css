@@ -23,18 +23,7 @@ a{
     opacity: 1;
 
 }
-h1.page-title{
-    position: absolute;
-    left: 20%;
-    top:23vh;
-    z-index: 200;
-    color: #fff;
-    background: #497aa0;
-    text-shadow: 0 0 1px #fff;
-    border-left: 3px solid #bd4630;
-    padding: 0 15px;
-    /* font-weight: 500; */
-}
+
 
 .page-row-1{
     position: relative;
@@ -49,13 +38,6 @@ h1.page-title{
 }
 .about-part{
     margin-bottom: 40px;
-}
-.about-part p{
-    font-size: 20px;
-}
-
-.intro p{
-    font-size: 24px;
 }
 
 .about-part h2{

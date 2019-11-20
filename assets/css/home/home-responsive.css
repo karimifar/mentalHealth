@@ -1,7 +1,5 @@
 @media only screen and (max-width: 1440px) {
-    h1{
-        font-size: 58px;
-    }
+    
     .home-row{
         padding: 20px 10%;
     }
@@ -11,9 +9,7 @@
     .home-row{
         padding: 20px 8%;
     }
-    h1{
-        font-size: 52px;
-    }
+    
     h2{
         font-size: 24px;
     }
@@ -23,9 +19,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-    h1{
-        font-size: 45px;
-    }
+    
     .home-row{
         padding: 20px 5%;
     }
@@ -72,9 +66,7 @@
     .home-row{
         padding: 20px 10px;
     }
-    h1{
-        font-size: 36px;
-    }
+    
     h2{
         font-size: 20px;
     }

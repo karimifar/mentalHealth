@@ -1,0 +1,8 @@
+@media only screen and (max-width: 992px) {
+    h2.init-head{
+        font-size: 18px;
+    }
+    .chairs{
+        width: 100%;
+    }
+}
