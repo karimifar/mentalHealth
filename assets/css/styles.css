@@ -206,3 +206,18 @@ ul.numlist{
 ul.numlist li{
     padding: 10px;
 }
+
+#uts-bar{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background: linear-gradient(0deg, #497aa0 0%, #193a66 50%);;
+    ;
+    padding: 5px 10%;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f47b20;
+}
+#uts-bar img{
+    width: 240px;
+}
