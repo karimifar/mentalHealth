@@ -1,5 +1,5 @@
 $(".card-header").on("click", function(){
-    var theIcon = $(this).find("i")
+    var theIcon = $(this).find("k")
     if(theIcon.hasClass("fa-caret-right")){
         theIcon.attr("class", "fas fa-caret-down")
     }else{
