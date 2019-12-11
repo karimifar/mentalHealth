@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141911228-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-141911228-2');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -43,13 +51,13 @@
 </head>
 
 <body>
-    <div id="content">
+    <div id="content" role="main">
         
         <header>
             <div id="uts-bar">
-                <a href="https://utsystem.edu"><img alt="University of Texas System logotype" src="assets/img/uts-type.svg"></a>
+                <a href="https://utsystem.edu"><img alt="The University of Texas System" src="assets/img/uts-type.svg"></a>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse" role="navigation">
+            <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
                 <a id="nav-icon" class="navbar-brand" href="./">
                     <img src="./assets/img/logo.svg" class="d-inline-block align-top" alt="tcmhcc logo" title="home">
                 </a>
@@ -60,33 +68,40 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="./about" role="navigate" aria-haspopup="true"  aria-expanded="false">
+                            <a class="nav-link" href="./about"  aria-haspopup="true"  aria-expanded="false">
                             ABOUT
                             </a>
                         
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="./initiatives" role="navigate" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="./initiatives" aria-haspopup="true" aria-expanded="false">
                             INITIATIVES
+                            </a>
+        
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./meetings/" aria-haspopup="true" aria-expanded="false">
+                            MEETINGS
                             </a>
         
                         </li>
                     
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="navigate" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="./resources" aria-haspopup="true" aria-expanded="false">
                             RESOURCES
                             </a>
-                            <div class="dropdown-menu animate slideIn">
+                            <!-- <div class="dropdown-menu animate slideIn">
                                 <a class="dropdown-item" href="./resources/meetings-and-minutes">Meetings and Minutes</a>
                                 <a class="dropdown-item" href="./resources/documents">Documents</a>
-                            </div>
+                            </div> -->
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
 
-        <div class="banner" role="introduction">
+        <div class="banner" role="banner">
             <div class="banner-img-wrap">
                 <!-- <img src="./assets/img/home.jpeg" alt=""> -->
             </div>
@@ -110,13 +125,13 @@
                 
                 <div class="proj-wrap">
                     <div class="proj-title d-flex flex-column justify-content-center">
-                        <h3>CPAN</h3>
+                        <h3>Pediatrician and PCP Support</h3>
                     </div>
                     <p>The Child Psychiatry Access Network (CPAN) is a network of child psychiatry access centers that provides support to pediatricians and primary care providers in caring for children and youth with behavioral health needs.</p>
                 </div>
                 <div class="proj-wrap">
                     <div class="proj-title d-flex flex-column justify-content-center">
-                        <h3>TCHATT</h3>
+                        <h3>School-Based Support</h3>
                     </div>
                     <p>Texas Child Health Access Through Telemedicine (TCHATT) is a network of telemedicine or telehealth programs that provide in-school behavioral health care to at-risk children and adolescents.</p>
                 </div>
@@ -131,25 +146,25 @@
                         <h3>Research</h3>
                     </div>
                     <p>
-                        The Consortium will fund 2-3 multi-institutional research projects in areas that have potential for advancing mental health care for children and adolescents in Texas.
+                        The Consortium will fund multi-institutional research projects in areas that have potential for advancing mental health care for children and adolescents in Texas.
                     </p>
                 </div>
             </div>
 
             <div id="events-row" class="home-row">
-                <h2>Open Meetings</h2>
+                <a href="./meetings"><h2>Upcoming Meetings</h2></a>
                 <div class="d-flex all-events">
                     <div class="event-pad">
                         <div class="event-wrap">
                             <div class="date">
-                                <p class="day">19</p>
-                                <p class="month">OCT</p>
-                                <p class="year">2019</p>
+                                <p class="day">17</p>
+                                <p class="month">Jan</p>
+                                <p class="year">2020</p>
                             </div>
                             <div class="event-info">
-                                <p class="title">First Meeting of The Year</p>
-                                <p class="time"><k class="far fa-clock"></k>All day</p>
-                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT system</p>
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>Thompson Conference Center</p>
                             </div>
                         </div>
                     </div>
@@ -157,14 +172,14 @@
                     <div class="event-pad">
                         <div class="event-wrap">
                             <div class="date">
-                                <p class="day">19</p>
-                                <p class="month">OCT</p>
-                                <p class="year">2019</p>
+                                <p class="day">21</p>
+                                <p class="month">FEB</p>
+                                <p class="year">2020</p>
                             </div>
                             <div class="event-info">
-                                <p class="title">Set a meeting?</p>
-                                <p class="time"><k class="far fa-clock"></k>All day</p>
-                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT system</p>
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT System Administration Building</p>
                             </div>
                         </div>
                     </div>
@@ -172,14 +187,14 @@
                     <div class="event-pad">
                         <div class="event-wrap">
                             <div class="date">
-                                <p class="day">19</p>
-                                <p class="month">OCT</p>
-                                <p class="year">2019</p>
+                                <p class="day">11</p>
+                                <p class="month">MAR</p>
+                                <p class="year">2020</p>
                             </div>
                             <div class="event-info">
-                                <p class="title">Set a meeting?</p>
-                                <p class="time"><k class="far fa-clock"></k>All day</p>
-                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT system</p>
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT System Administration Building</p>
                             </div>
                         </div>
                     </div>
@@ -187,14 +202,44 @@
                     <div class="event-pad">
                         <div class="event-wrap">
                             <div class="date">
-                                <p class="day">29</p>
-                                <p class="month">SEP</p>
-                                <p class="year">2022</p>
+                                <p class="day">20</p>
+                                <p class="month">APR</p>
+                                <p class="year">2020</p>
                             </div>
                             <div class="event-info">
-                                <p class="title">The title of this meeting is just long long long!</p>
-                                <p class="time"><k class="far fa-clock"></k>All day</p>
-                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT system</p>
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT System Administration Building</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-pad">
+                        <div class="event-wrap">
+                            <div class="date">
+                                <p class="day">15</p>
+                                <p class="month">may</p>
+                                <p class="year">2020</p>
+                            </div>
+                            <div class="event-info">
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT System Administration Building</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-pad">
+                        <div class="event-wrap">
+                            <div class="date">
+                                <p class="day">5</p>
+                                <p class="month">jun</p>
+                                <p class="year">2020</p>
+                            </div>
+                            <div class="event-info">
+                                <p class="title">Open Meeting</p>
+                                <p class="time"><k class="far fa-clock"></k>10am – 3pm</p>
+                                <p class="location"><k class="fas fa-map-marker-alt"></k>UT System Administration Building</p>
                             </div>
                         </div>
                     </div>
@@ -203,11 +248,11 @@
         </div>
 
     </div>
-    <footer role="colophon">
+    <footer role="complementary">
         <div class="footer-row ">
             <div class="footer-logos d-flex justify-content-center">
                 <!-- <img src="./assets/img/logo.svg" alt=""> -->
-                <img src="./assets/img/uts-logo.svg" alt="">
+                <img src="./assets/img/uts-logo.svg" alt="UT system logo">
             </div>
             <p>For more information on the Texas Child Mental Health Care Consortium, please contact <a href= "mailto:tcmhcc@utsystem.edu">tcmhcc@utsystem.edu</a></p>
         </div>
