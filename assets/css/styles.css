@@ -1,6 +1,12 @@
 *{
     font-family: 'halyard-text',sans-serif;
 }
+a{
+    color: #497aa0;
+}
+a:hover{
+    color: #bd4630;
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -34,6 +40,15 @@ h1.page-title{
     border-left: 3px solid #bd4630;
     padding: 0 15px;
     /* font-weight: 500; */
+}
+h1.page-title-noBanner{
+    z-index: 200;
+    color: #fff;
+    background: #497aa0;
+    text-shadow: 0 0 1px #fff;
+    border-left: 3px solid #bd4630;
+    padding: 0 15px;
+    width: fit-content;
 }
 .page-row p{
     font-size: 18px;
@@ -118,6 +133,7 @@ header{
     z-index: 10;
     transition: all 0.3s ease-in-out;
     border-bottom: 1px solid #eee;
+    padding-top:50px;
 }
 footer{
     background: #eee;
