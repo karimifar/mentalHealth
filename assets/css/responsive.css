@@ -20,7 +20,7 @@
 
 
 @media only screen and (max-width: 992px) {
-
+    
     h1{
         font-size: 45px;
     }
@@ -38,7 +38,7 @@
         width:250px;
     }    
     .page-row{
-        width: 90%;
+        width: 95%;
     }
     h1.page-title{
         left: 5%;
@@ -48,6 +48,9 @@
     }
     p.intro {
         font-size: 18px;
+    }
+    img.diagram{
+        padding:0;
     }
 }
 
