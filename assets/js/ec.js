@@ -1,5 +1,5 @@
 $("#ec-table").append("LOADING DATA!")
-$.get("http://texashealthdata.com/api/tcmhcc/ec", function(data){
+$.get("https://texashealthdata.com/api/tcmhcc/ec", function(data){
         $("#ec-table").empty()
         for (var i=0; i<data.length; i++){
             var name= "<td class='name'>" + data[i][0] + "</td>";
