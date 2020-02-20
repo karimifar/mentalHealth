@@ -27,9 +27,16 @@
     display: flex;
 }
 .name-toggle:hover{
-    background: rgba(238, 238, 238, 0.4);
+    background: rgba(73, 122, 160, 0.1);
 }
-.toggle-wrap{
+
+.toggle-wrap .name{
+    color: #bd4630;
+}
+.toggle-wrap.collapsed .name{
+    color: #497aa0;
+}
+.toggle-wrap.collapsed{
     color: #000;
 }
 .toggle-wrap:hover{
@@ -37,7 +44,7 @@
     color: #000;
     
 }
-.toggle-wrap:hover .name{
+.toggle-wrap.collapsed:hover .name{
     color: #bd4630;
 }
 
@@ -80,6 +87,7 @@ p.institution{
 .collapse-content{
     display: flex;
     padding: 10px;
+    background-color: rgba(238, 238, 238, 0.4);;
 }
 .headshot{
     width: 30%;
@@ -94,6 +102,7 @@ p.institution{
     height: 170px;
     border-radius: 50%;
     overflow: hidden;
+    margin: auto;
 }
 .headshot img{
     width: 100%;

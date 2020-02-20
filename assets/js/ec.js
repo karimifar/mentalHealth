@@ -34,7 +34,7 @@ $.get("https://texashealthdata.com/api/tcmhcc/ec", function(data){
             var imgsrc = "https://utsystem.edu/pophealth/tcmhcc/assets/img/headshots/"+ data[i][5]
 
             var ecmCard = $("<div class='ecm-card'>")
-            var button = $("<a data-toggle='collapse' class='toggle-wrap' href='"+link+"' aria-expanded='false' aria-controls="+ariaControl+">")
+            var button = $("<a data-toggle='collapse' class='toggle-wrap collapsed' href='"+link+"' aria-expanded='false' aria-controls="+ariaControl+">")
             var expanded = $("<div class='collapse collapse-content' id='"+ariaControl+"'>")
 
             var headshot = $("<div class='headshot'>")
