@@ -32,7 +32,7 @@
 
 
 .toggle-wrap .name{
-    color: #bd4630;
+    /* color: #bd4630; */
 }
 .toggle-wrap.collapsed .name{
     color: #497aa0;
@@ -51,9 +51,8 @@
 .toggle-wrap:hover{
     text-decoration: none;
     color: #000;
-    
 }
-.toggle-wrap.collapsed:hover .name{
+.toggle-wrap:hover .name{
     color: #bd4630;
 }
 
