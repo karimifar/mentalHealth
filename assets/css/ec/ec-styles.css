@@ -56,7 +56,6 @@
 p.title{
     width:40%;
     font-size: 14px;
-    line-height: 1.2em;
     padding: 10px;
     margin:0;
     /* align-self: center; */
@@ -64,7 +63,6 @@ p.title{
 p.institution{
     width: 30%;
     font-size: 14px;
-    line-height: 1.2em;
     padding: 10px;
     margin:0;
     /* align-self: center; */
