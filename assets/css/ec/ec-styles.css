@@ -16,3 +16,10 @@
 .page-row-1 p{
     font-size: 18px;
 }
+.name{
+    width:25%;
+    font-weight: 500;
+}
+.title{
+    width: 40%;
+}
