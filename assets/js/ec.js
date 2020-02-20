@@ -1,4 +1,4 @@
-$("#ec-table").append("LOADING DATA!")
+$(".loading").append("LOADING DATA!")
 $.get("https://texashealthdata.com/api/tcmhcc/ec", function(data){
         // $("#ec-table").empty()
         // for (var i=0; i<data.length; i++){
@@ -23,6 +23,7 @@ $.get("https://texashealthdata.com/api/tcmhcc/ec", function(data){
         //         $(".committee").append(ecmCard)
         //     }
         // }
+        $(".loading").empty();
         for (var i=0; i<data.length; i++){
             var link = "#ecm"+(i+1);
             var ariaControl = "ecm"+(i+1);

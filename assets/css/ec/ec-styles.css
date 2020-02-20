@@ -17,7 +17,9 @@
     font-size: 18px;
 }
 
-
+.committee{
+    margin-bottom: 100px;
+}
 .ecm-card{
     border-bottom: #ddd 1px solid;
     padding: 10px 0;
@@ -25,10 +27,9 @@
 
 .name-toggle{
     display: flex;
+
 }
-.name-toggle:hover{
-    background: rgba(73, 122, 160, 0.1);
-}
+
 
 .toggle-wrap .name{
     color: #bd4630;
@@ -36,8 +37,16 @@
 .toggle-wrap.collapsed .name{
     color: #497aa0;
 }
-.toggle-wrap.collapsed{
+.toggle-wrap .name-toggle{
+    background-color: rgba(73, 122, 160, 0.1);
     color: #000;
+}
+.toggle-wrap.collapsed .name-toggle{
+    color: #000;
+    background-color: rgba(73, 122, 160, 0);
+}
+.toggle-wrap.collapsed .name-toggle:hover{
+    background: rgba(73, 122, 160, 0.1);
 }
 .toggle-wrap:hover{
     text-decoration: none;
