@@ -38,6 +38,13 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+#projects-row a{
+    color: #000;
+}
+#projects-row a:hover{
+    text-decoration: none;
+}
 .proj-wrap{
     flex-grow: 1;
     width:100% ;
@@ -77,6 +84,9 @@
     padding-top:50px;
     
 }
+#events-row a:hover{
+    text-decoration: none;
+}
 #events-row h2{
     color: #497aa0;
     width:fit-content;
@@ -103,6 +113,15 @@
     width: 33.3%;
     max-width: 33.5%;
     padding: 20px;
+}
+.event-pad a:hover{
+    text-decoration: none;
+}
+.event-pad a:hover .webcast{
+    text-decoration: underline;
+}
+.event-pad a:hover .webcast k{
+    color: #bd4630
 }
 .event-wrap:last-child{
     margin-right: 0;
