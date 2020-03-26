@@ -16,11 +16,26 @@
 }
 .resource-list{
     padding: 20px;
-    padding-top:50px;
+    padding-top:10px;
+    margin-left: 40px;
+    /* background-color: #eee; */
+    /* padding-top:50px; */
 }
 .resource-list h4{
-    margin-top: 20px
+    margin-top: 20px;
+    /* padding-left: 20px; */
 }
 .temp-notice{
     margin-top: 100px;
+}
+.resource-cat{
+    margin-top: 40px;
+}
+h2.covid{
+    background-color: #bd4630;
+    color: #fff;
+    padding: 5px;
+}
+.covid-19{
+    
 }

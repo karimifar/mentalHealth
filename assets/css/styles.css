@@ -239,3 +239,19 @@ ul.numlist li{
 #uts-bar img{
     width: 240px;
 }
+
+#covid-bar{
+    padding: 5px 5%;
+    background-color: #bd4630;
+    color:#fff;
+    text-align: center;
+}
+#covid-bar a{
+    color: #fff;
+    
+    font-size: 18px;
+}
+#covid-bar a:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
