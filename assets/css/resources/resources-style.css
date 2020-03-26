@@ -21,8 +21,9 @@
     /* background-color: #eee; */
     /* padding-top:50px; */
 }
-.resource-list h4{
-    margin-top: 20px;
+.resource-list li{
+    margin-top: 10px;
+    font-size: 20px;
     /* padding-left: 20px; */
 }
 .temp-notice{
