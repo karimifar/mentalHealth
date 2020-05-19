@@ -33,7 +33,20 @@
     padding-bottom: 10vh;
 }
 
-
+.cpan-box{
+    border: 1px solid #bd4630;
+    border-radius: 5px;
+    padding: 10px 15px 0px;
+    margin-bottom: 10px;
+    background-color: #497aa055;
+}
+.cpan-box h3 a{
+    color: #fff;
+}
+.cpan-box h3 span{
+    font-weight: 100;
+    font-size: 0.7em;
+}
 #projects-row{
     padding-top: 5%;
     padding-bottom: 5%;
