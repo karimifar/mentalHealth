@@ -118,12 +118,12 @@ p{
     font-weight: 200;
 }
 #nav-icon{
-    width: 200px;
+    width: 220px;
     margin: 0;
 }
 #nav-icon img{
-    width:300px;
-    
+    width:100%;
+
 }
 header{
     display: flex;
